@@ -51,6 +51,8 @@ namespace Spline_LagrangeInterpolation
                 // Построение графиков погрешности
                 PlotError(xs, errSpline, errLagrange, n);
             }
+            Console.WriteLine("Файлы сохранены, работа программы завершена, нажмите любую клавишу для выхода");
+            Console.ReadKey();
         }
 
         // Полином Лагранжа
